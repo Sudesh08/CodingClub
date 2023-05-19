@@ -1,0 +1,35 @@
+@media screen and (max-width:1024px)
+{
+    h2{
+        font-size: 1.75rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .slider img{
+        height: 150px;
+    }
+    .media-btn{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    h2{
+        font-size: 1.5rem;
+    }
+    .menu{
+     display: block;
+     margin-right: 20px;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .college-logo img {
+        width: 250px;
+    }
+    .slider img{
+        height: 100px;
+    }
+}
